@@ -14,6 +14,36 @@
     width: 500px;
 }
 
-.btn {
+.log {
     width: 100%;
+}
+
+.new-user {
+    margin-top: 5px;
+}
+
+.logout {
+    text-decoration: none;
+    color: red;
+}
+
+.logout:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.bi{
+    color: white;
+}
+
+.dropdown-toggle {
+    color: white;
+}
+
+.dropdown-toggle:hover {
+    color: white;
+}
+
+.navbar-brand {
+    margin-left: 90px;
 }
