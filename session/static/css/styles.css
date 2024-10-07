@@ -1,0 +1,19 @@
+.container {
+    padding: 35px !important;
+    min-height: 50vh;
+    width: 1000px;
+}
+
+
+.headers {
+    text-align: center;
+}
+
+
+.form-group {
+    width: 500px;
+}
+
+.btn {
+    width: 100%;
+}
