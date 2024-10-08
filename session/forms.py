@@ -1,7 +1,8 @@
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-from .models import CustomUser
+from .models import CustomUser, Post
 from django.core.validators import MinLengthValidator, MaxLengthValidator, EmailValidator
 from django import forms
+from django.db import models
 
 class CustomUserCreationForm(UserCreationForm):
 
@@ -47,3 +48,9 @@ class CustomUserChangeForm(UserChangeForm):
         model = CustomUser
         fields = ('username', 'email')
 
+
+
+class PostCreateForm(forms.ModelForm):
+    class Meta:
+        model = Post
+        fields = ('title', 'content')
